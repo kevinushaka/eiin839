@@ -1,0 +1,13 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\bin\Debug\netcoreapp3.1\ServerHTTPlistener.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TP1\HttpListener\ServerHTTPlistener\obj\Debug\netcoreapp3.1\ServerHTTPlistener.genruntimeconfig.cache
