@@ -1,0 +1,13 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\bin\Debug\netcoreapp3.1\HTTPListener.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\HTTPListener\obj\Debug\netcoreapp3.1\HTTPListener.genruntimeconfig.cache
