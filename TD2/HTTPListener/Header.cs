@@ -20,11 +20,17 @@ namespace HTTPListener
         string From { get; } //Internet Email address for the human user who controls the requesting user agent.
         string UserAgent { get; }//Information about the client agent.
 
-
+        public void display_Accept(){Console.WriteLine(Accept);}
+        public void display_AcceptEncoding() { Console.WriteLine( AcceptEncoding); }
+        public void display_AcceptLanguage() { Console.WriteLine(AcceptLanguage); }
+        public void display_Authorization() { Console.WriteLine(Authorization); }
+        public void display_Cookie() { Console.WriteLine(Cookie); }
+        public void display_From() { Console.WriteLine(From); }
+        public void display_UserAgent() { Console.WriteLine(UserAgent); }
         public Header(HttpListenerRequest request)
         {
             //The problem with HttpRequestHeader is that some of the names have dashes ("-") in them. 
-            //For instance, "Accept" works but "Accept-Encoding" does not.
+            //For instance, "Accept" works but "Accept-Encoding" does not so we had to convert them.
             Accept = request.Headers.Get(HttpRequestHeader.Accept.ToString());
             AcceptEncoding = request.Headers.Get(TranslateToHttpHeaderName(HttpRequestHeader.AcceptEncoding));
             AcceptLanguage = request.Headers.Get(TranslateToHttpHeaderName(HttpRequestHeader.AcceptLanguage));
@@ -34,18 +40,7 @@ namespace HTTPListener
             From = request.Headers.Get(HttpRequestHeader.From.ToString());
             UserAgent = request.Headers.Get(TranslateToHttpHeaderName(HttpRequestHeader.UserAgent));
         }
-
-        public void write()
-        {
-            Console.WriteLine(HttpRequestHeader.Accept.ToString() + " : " + Accept);
-            Console.WriteLine(HttpRequestHeader.AcceptEncoding.ToString() + " : " + AcceptEncoding);
-            Console.WriteLine(HttpRequestHeader.AcceptLanguage.ToString() + " : " + AcceptLanguage);
-            Console.WriteLine(HttpRequestHeader.Allow.ToString() + " : " + Allow);
-            Console.WriteLine(HttpRequestHeader.Authorization.ToString() + " : " + Authorization);
-            Console.WriteLine(HttpRequestHeader.Cookie.ToString() + " : " + Cookie);
-            Console.WriteLine(HttpRequestHeader.From.ToString() + " : " + From);
-            Console.WriteLine(HttpRequestHeader.Accept.ToString() + " : " + UserAgent);
-        }
+        
 
         /**
          * @see https://stackoverflow.com/questions/25574333/how-to-use-system-net-httprequestheader-enum-with-an-asp-net-request

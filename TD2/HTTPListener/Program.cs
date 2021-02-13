@@ -64,7 +64,13 @@ namespace HTTPListener
 
                 //Get and display header fields
                 Header header = new Header(request);
-                header.write();
+                header.display_Accept();
+                header.display_AcceptEncoding();
+                header.display_AcceptLanguage();
+                header.display_Authorization();
+                header.display_Cookie();
+                header.display_From();
+                header.display_UserAgent();
 
                 // Construct a response.
                 string responseString = GetIndex();
