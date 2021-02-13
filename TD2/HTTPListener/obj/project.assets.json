@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\RenduTD1\\HttpListener\\ServerHTTPlistener\\ServerHTTPlistener.csproj",
-      "projectName": "ServerHTTPlistener",
-      "projectPath": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\RenduTD1\\HttpListener\\ServerHTTPlistener\\ServerHTTPlistener.csproj",
+      "projectUniqueName": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\TD2\\HTTPListener\\HTTPListener.csproj",
+      "projectName": "HTTPListener",
+      "projectPath": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\TD2\\HTTPListener\\HTTPListener.csproj",
       "packagesPath": "C:\\Users\\keush\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\RenduTD1\\HttpListener\\ServerHTTPlistener\\obj\\",
+      "outputPath": "C:\\Users\\keush\\Projects\\soc-ws-20-21\\eiin839\\TD2\\HTTPListener\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\keush\\AppData\\Roaming\\NuGet\\NuGet.Config",

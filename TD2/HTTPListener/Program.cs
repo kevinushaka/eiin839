@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.IO;
 using System.Net;
 using System.Text;
 
-namespace ServerHTTPlistener
+namespace HTTPListener
 {
     class Program
     {
@@ -63,17 +61,10 @@ namespace ServerHTTPlistener
 
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
-                NameValueCollection headers = context.Request.Headers;
-                String[] title_keys = headers.AllKeys;
-                for (int i = 0; i < title_keys.Length; i++)
-                {
-                    Console.Write(title_keys[i] + " : ");
-                    String[] values_keys = headers.GetValues(title_keys[i]);
-                    for (int j = 0; j < values_keys.Length; j++)
-                    {
-                        Console.Write(values_keys[j] + "\n");
-                    }
-                }
+
+                //Get and display header fields
+                Header header = new Header(request);
+                header.write();
 
                 // Construct a response.
                 string responseString = GetIndex();
