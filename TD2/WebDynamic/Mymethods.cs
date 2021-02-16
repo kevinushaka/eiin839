@@ -8,6 +8,11 @@ using System.IO;
 
 namespace WebDynamic
 {
+    /**
+     * Le classe Mymethods permet de récupérer les documents depuis un éxécutable.
+     * @author Kevin Ushaka Kubwawe
+     * 
+     */
     public class Mymethods
     {
         public Mymethods()

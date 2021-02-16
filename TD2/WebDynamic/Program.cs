@@ -7,8 +7,15 @@ using System.Web;
 using System.Reflection;
 namespace WebDynamic
 {
+
     internal class Program
     {
+        /**
+         * 
+         * Exemples URLs: 
+         * localhost:8080/Mymethods?param1=Bon&param2=jour
+         * localhost:8081/soc/Mymethods?param1=A&param2=bientot
+         */
         private static void Main(string[] args)
         {
 
@@ -111,7 +118,6 @@ namespace WebDynamic
                     object classInstance = Activator.CreateInstance(t, null);
                     return_value=method.Invoke(classInstance, parameters);
                 }
-                //localhost:8080/Mymethods?param1=Ok&param2=IL
                 //Console.WriteLine(documentContents);
 
                 // Obtain a response object.
