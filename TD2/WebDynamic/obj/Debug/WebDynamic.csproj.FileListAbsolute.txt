@@ -1,0 +1,7 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\bin\Debug\BasicWebServer.exe.config
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\bin\Debug\BasicWebServer.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\bin\Debug\BasicWebServer.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\obj\Debug\BasicWebServer.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\obj\Debug\BasicWebServer.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csprojAssemblyReference.cache

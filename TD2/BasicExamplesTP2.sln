@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalExeCall", "External
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWebServerUrlParser", "BasicWebServer\BasicWebServerUrlParser.csproj", "{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPListener", "HTTPListener\HTTPListener.csproj", "{2397903A-F52B-4378-9787-FECE10307504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTTPListener", "HTTPListener\HTTPListener.csproj", "{2397903A-F52B-4378-9787-FECE10307504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDynamic", "WebDynamic\WebDynamic.csproj", "{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exec", "Exec\Exec.csproj", "{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{2397903A-F52B-4378-9787-FECE10307504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2397903A-F52B-4378-9787-FECE10307504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2397903A-F52B-4378-9787-FECE10307504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

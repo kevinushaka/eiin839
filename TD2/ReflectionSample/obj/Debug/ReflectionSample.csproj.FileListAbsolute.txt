@@ -5,3 +5,9 @@ D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\bin\Debug\ReflectionSample.pdb
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\obj\Debug\ReflectionSample.exe
 D:\ENSEIGNEMENTS\SoCWS SI4\TD REFLEXION SAMPLE\ReflectionSample\ReflectionSample\obj\Debug\ReflectionSample.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.exe.config
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\bin\Debug\ReflectionSample.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ReflectionSample\obj\Debug\ReflectionSample.pdb

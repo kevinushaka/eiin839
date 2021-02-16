@@ -64,6 +64,7 @@ namespace HTTPListener
 
                 //Get and display header fields
                 Header header = new Header(request);
+                Console.WriteLine("<HEADER>");
                 header.display_Accept();
                 header.display_AcceptEncoding();
                 header.display_AcceptLanguage();
@@ -71,6 +72,7 @@ namespace HTTPListener
                 header.display_Cookie();
                 header.display_From();
                 header.display_UserAgent();
+                Console.WriteLine("</HEADER>");
 
                 // Construct a response.
                 string responseString = GetIndex();
