@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5CAC4EB9-786E-430B-94E4-CF4A0CDCBF46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicWebServer</RootNamespace>
-    <AssemblyName>BasicWebServer</AssemblyName>
+    <RootNamespace>WebDynamic</RootNamespace>
+    <AssemblyName>WebDynamic</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

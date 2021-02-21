@@ -10,6 +10,8 @@ namespace WebDynamic
 {
     /**
      * Le classe Mymethods permet de récupérer les documents depuis un éxécutable.
+     * Elle contient  une  méthode  <mymethod>(string <parm1_value>, string <param2_value>) qui sera appelée sur une invocation de type
+     * http://localhost:8080/<ceque_vousvoulez>/<ceque_vousvoulez>/<MyMethod>?param1=<ceque_vousvoulez>& param2=<ceque_vousvoulez>
      * @author Kevin Ushaka Kubwawe
      * 
      */
@@ -19,14 +21,14 @@ namespace WebDynamic
         {
 
         }
-        public string ExecTest(string param1, string param2)
+        public string Exec(string param1, string param2)
         {
             //
             // Set up the process with the ProcessStartInfo class.
             // https://www.dotnetperls.com/process
             //
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = @"C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\Exec\bin\Debug\ExecTest.exe"; // Specify exe name.
+            start.FileName = @"C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\Exec\bin\Debug\Exec.exe"; // Specify exe name.
             start.Arguments = param1+" "+param2; // Specify arguments.
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
@@ -47,4 +49,6 @@ namespace WebDynamic
             }
         }
     }
+
+   
 }

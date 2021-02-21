@@ -1,0 +1,7 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\bin\Debug\WebServiceClient.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\bin\Debug\WebServiceClient.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\obj\Debug\WebServiceClient.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\obj\Debug\WebServiceClient.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\obj\Debug\WebServiceClient.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\WebServiceClient\obj\Debug\WebServiceClient.pdb

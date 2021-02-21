@@ -13,8 +13,8 @@ namespace WebDynamic
         /**
          * 
          * Exemples URLs: 
-         * localhost:8080/Mymethods?param1=Bon&param2=jour
-         * localhost:8081/soc/Mymethods?param1=A&param2=bientot
+         * localhost:8080/Exec?param1=Bon&param2=jour
+         * localhost:8081/soc/Exec?param1=A&param2=bientot
          */
         private static void Main(string[] args)
         {
@@ -107,16 +107,13 @@ namespace WebDynamic
                 string param1 = HttpUtility.ParseQueryString(request.Url.Query).Get("param1");
                 string param2 = HttpUtility.ParseQueryString(request.Url.Query).Get("param2");
                 object return_value=null;
-                string type = request.Url.Segments[request.Url.Segments.Length - 1];
-                if (param1!=null && param2!=null)
+                Type t = typeof(Mymethods);          
+                string methodStr = request.Url.Segments[request.Url.Segments.Length - 1];
+                if(param1!=null && param2!=null) //<MyMethod> qui retourne un contenu HTML variable selon les valeurs de <param1> et <param2>.
                 {
                     string[] parameters = { param1, param2 };
-                    Type t = Type.GetType("WebDynamic."+ type);
-                    MethodInfo method
-                         = t.GetMethod("ExecTest", BindingFlags.Instance | BindingFlags.Public,null, new Type[] { typeof(string) , typeof(string) }, null);
-
-                    object classInstance = Activator.CreateInstance(t, null);
-                    return_value=method.Invoke(classInstance, parameters);
+                    MethodInfo method = t.GetMethod(methodStr);
+                    return_value=method.Invoke(new Mymethods(), parameters);
                 }
                 //Console.WriteLine(documentContents);
 

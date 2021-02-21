@@ -18,3 +18,4 @@ C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ExternalExeCall\bin\Debug\Exter
 C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.CoreCompileInputs.cache
 C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.exe
 C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\ExternalExeCall\obj\Debug\ExternalExeCall.csprojAssemblyReference.cache
