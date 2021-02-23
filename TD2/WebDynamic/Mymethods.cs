@@ -29,7 +29,7 @@ namespace WebDynamic
             //
             ProcessStartInfo start = new ProcessStartInfo();
             start.FileName = @"C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD2\Exec\bin\Debug\Exec.exe"; // Specify exe name.
-            start.Arguments = param1+" "+param2; // Specify arguments.
+            start.Arguments = param1 + " " + param2; // Specify arguments.
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
             //
@@ -47,6 +47,10 @@ namespace WebDynamic
                     return result;
                 }
             }
+        }
+        public string Method(string param1, string param2)
+        {
+            return "<HTML> <BODY> <H1> Prenom : " + param1 + ", Nom : " + param2 + "</H1></BODY></HTML>";
         }
     }
 

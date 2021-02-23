@@ -15,6 +15,7 @@ namespace WebDynamic
          * Exemples URLs: 
          * localhost:8080/Exec?param1=Bon&param2=jour
          * localhost:8081/soc/Exec?param1=A&param2=bientot
+         * localhost:8080/Method?param1=Marcel&param2=Ferrand
          */
         private static void Main(string[] args)
         {
