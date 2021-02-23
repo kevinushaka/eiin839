@@ -50,7 +50,13 @@ namespace WebDynamic
         }
         public string Method(string param1, string param2)
         {
-            return "<HTML> <BODY> <H1> Prenom : " + param1 + ", Nom : " + param2 + "</H1></BODY></HTML>";
+            return "<HTML><BODY> Hello " + param1 + " et " + param2 + "</BODY></HTML>";
+        }
+        public string Incr(string param)
+        {
+            int val = int.Parse(param);
+            val++;
+            return "{ \"status\":200, \"val\":" + val + "}";
         }
     }
 

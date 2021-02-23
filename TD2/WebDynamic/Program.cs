@@ -13,9 +13,9 @@ namespace WebDynamic
         /**
          * 
          * Exemples URLs: 
-         * localhost:8080/Exec?param1=Bon&param2=jour
-         * localhost:8081/soc/Exec?param1=A&param2=bientot
-         * localhost:8080/Method?param1=Marcel&param2=Ferrand
+         * localhost:8080/method/Method?param1=Bon&param2=jour  //Méthode interne
+         * localhost:8081/cg-bin/Exec?param1=A&param2=bientot  //Exécutable
+         * localhost:8080/webservice/Incr?val=5             // Services Web
          */
         private static void Main(string[] args)
         {
@@ -97,25 +97,37 @@ namespace WebDynamic
                 // parse path in url 
                 foreach (string str in request.Url.Segments)
                 {
-                    //Console.WriteLine(str);
+                   // Console.WriteLine(str);
                 }
-
                 //get params un url. After ? and between &
 
                 Console.WriteLine(request.Url.Query);
 
-                //parse params in url
-                string param1 = HttpUtility.ParseQueryString(request.Url.Query).Get("param1");
-                string param2 = HttpUtility.ParseQueryString(request.Url.Query).Get("param2");
+
                 object return_value=null;
-                Type t = typeof(Mymethods);          
-                string methodStr = request.Url.Segments[request.Url.Segments.Length - 1];
-                if(param1!=null && param2!=null) //<MyMethod> qui retourne un contenu HTML variable selon les valeurs de <param1> et <param2>.
+                Type t = typeof(Mymethods);
+                if (request.Url.Segments.Length > 1)
                 {
-                    string[] parameters = { param1, param2 };
-                    MethodInfo method = t.GetMethod(methodStr);
-                    return_value=method.Invoke(new Mymethods(), parameters);
+                    string path = request.Url.Segments[request.Url.Segments.Length - 2];
+                    string methodName = request.Url.Segments[request.Url.Segments.Length - 1];
+                    if (path.Equals("cg-bin/")||path.Equals("method/"))
+                    {
+                        //parse params in url
+                        string param1 = HttpUtility.ParseQueryString(request.Url.Query).Get("param1");
+                        string param2 = HttpUtility.ParseQueryString(request.Url.Query).Get("param2");
+                        string[] parameters = { param1, param2 };
+                        MethodInfo method = t.GetMethod(methodName);
+                        return_value = method.Invoke(new Mymethods(), parameters);
+                    }
+                    if (path.Equals("webservice/"))
+                    {
+                        string param1 = HttpUtility.ParseQueryString(request.Url.Query).Get("val");
+                        string[] parameters = { param1 };
+                        MethodInfo method = t.GetMethod(methodName);
+                        return_value = method.Invoke(new Mymethods(), parameters);
+                    }
                 }
+                    
                 //Console.WriteLine(documentContents);
 
                 // Obtain a response object.

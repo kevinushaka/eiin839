@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDynamic", "WebDynamic\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exec", "Exec\Exec.csproj", "{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{E94AA556-BE30-4D59-8F38-454E3F41F9D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient", "WebServiceClient\WebServiceClient.csproj", "{3F3ACD7B-28E7-4E0C-AAD0-BED657A162C3}"
 EndProject
 Global
@@ -49,10 +47,6 @@ Global
 		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DB3F95-D8B3-41E2-BAB1-4417B3F4CCA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E94AA556-BE30-4D59-8F38-454E3F41F9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E94AA556-BE30-4D59-8F38-454E3F41F9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E94AA556-BE30-4D59-8F38-454E3F41F9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E94AA556-BE30-4D59-8F38-454E3F41F9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3F3ACD7B-28E7-4E0C-AAD0-BED657A162C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3F3ACD7B-28E7-4E0C-AAD0-BED657A162C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3ACD7B-28E7-4E0C-AAD0-BED657A162C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
