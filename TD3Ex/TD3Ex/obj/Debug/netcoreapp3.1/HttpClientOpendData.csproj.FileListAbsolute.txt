@@ -1,0 +1,12 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpendData.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientOpendData.genruntimeconfig.cache

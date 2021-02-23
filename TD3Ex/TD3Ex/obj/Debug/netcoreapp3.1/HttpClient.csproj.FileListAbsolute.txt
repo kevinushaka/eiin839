@@ -1,0 +1,13 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClient.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClient.genruntimeconfig.cache
