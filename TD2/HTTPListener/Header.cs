@@ -23,6 +23,8 @@ namespace HTTPListener
         public void display_Accept(){Console.WriteLine(Accept);}
         public void display_AcceptEncoding() { Console.WriteLine( AcceptEncoding); }
         public void display_AcceptLanguage() { Console.WriteLine(AcceptLanguage); }
+
+        public void dipslay_Allow() { Console.WriteLine(Allow); }
         public void display_Authorization() { Console.WriteLine(Authorization); }
         public void display_Cookie() { Console.WriteLine(Cookie); }
         public void display_From() { Console.WriteLine(From); }

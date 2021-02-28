@@ -65,13 +65,14 @@ namespace HTTPListener
                 //Get and display header fields
                 Header header = new Header(request);
                 Console.WriteLine("<HEADER>");
-                header.display_Accept();
-                header.display_AcceptEncoding();
-                header.display_AcceptLanguage();
-                header.display_Authorization();
-                header.display_Cookie();
-                header.display_From();
-                header.display_UserAgent();
+                Console.Write("Accept: ");          header.display_Accept();
+                Console.Write("Accept-Encoding: "); header.display_AcceptEncoding();
+                Console.Write("Accept-Language: "); header.display_AcceptLanguage();
+                Console.Write("Allow: ");           header.dipslay_Allow();
+                Console.Write("Authorization: ");   header.display_Authorization();
+                Console.Write("Cookie: ");          header.display_Cookie();
+                Console.Write("From: ");            header.display_From();
+                Console.Write("User-Agent: ");      header.display_UserAgent();
                 Console.WriteLine("</HEADER>");
 
                 // Construct a response.
