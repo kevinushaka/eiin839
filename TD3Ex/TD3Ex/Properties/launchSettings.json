@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "HttpClientGetContracts": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientOpenData.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientGetInfoStation.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientOpenData.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\bin\Debug\netcoreapp3.1\HttpClientOpenData.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.csproj.CopyComplete
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\HttpClientGetInfoStation\obj\Debug\netcoreapp3.1\HttpClientGetInfoStation.genruntimeconfig.cache

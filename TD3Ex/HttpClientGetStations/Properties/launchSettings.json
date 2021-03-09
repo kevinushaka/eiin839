@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HttpClientGetStations": {
+      "commandName": "Project",
+      "commandLineArgs": "marseille"
+    }
+  }
+}

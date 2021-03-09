@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HttpClientGetInfoStation": {
+      "commandName": "Project",
+      "commandLineArgs": "marseille 9087"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpenData.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.exe
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.deps.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.runtimeconfig.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.runtimeconfig.dev.json
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientGetContracts.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpenData.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\bin\Debug\netcoreapp3.1\HttpClientOpenData.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.csprojAssemblyReference.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.AssemblyInfoInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.AssemblyInfo.cs
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.csproj.CoreCompileInputs.cache
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.csproj.CopyComplete
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.dll
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.pdb
+C:\Users\keush\Projects\soc-ws-20-21\eiin839\TD3Ex\TD3Ex\obj\Debug\netcoreapp3.1\HttpClientGetContracts.genruntimeconfig.cache
