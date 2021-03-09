@@ -3,24 +3,18 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Device.Location;
-using Microsoft.Build.Utilities;
-using Microsoft.Build.Framework;
 namespace HttpClientGPSPositionStation
 {
-    class InfoClient
+    public class InfoClient
     {
         public static string key = "59f9558f2e403d30419e330b3e0da743626b0bfa";
     }
 
-    class MyLogger : Logger
-    {
-        public override void Initialize(IEventSource eventSource)
-        {
-        }
-    class Program
+
+    public class Program
     {
         static HttpClient client = new HttpClient();
-       
+        
         public static void LogError(HttpRequestException e)
         {
             Console.WriteLine("\nException Caught!");
