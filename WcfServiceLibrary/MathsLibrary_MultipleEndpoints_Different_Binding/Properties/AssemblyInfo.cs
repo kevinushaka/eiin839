@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("WcfServiceLibrary")]
+[assembly: AssemblyTitle("MathsLibrary_MultipleEndpoints_Different_Binding")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WcfServiceLibrary")]
+[assembly: AssemblyProduct("MathsLibrary_MultipleEndpoints_Different_Binding")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("19d59bee-b0b8-47fb-8ab2-5fd1f9a55187")]
+[assembly: Guid("67571bcd-127f-44dd-bb4a-67a2414cc6b3")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

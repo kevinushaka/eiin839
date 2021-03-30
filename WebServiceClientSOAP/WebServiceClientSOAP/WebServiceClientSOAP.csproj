@@ -45,7 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\Calculator\Reference.cs">
+    <Compile Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -60,7 +65,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\Calculator\calculator.wsdl" />
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\MathsOperations.wsdl" />
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\WebServiceClientSOAP.MathsLibrary_MultipleEndpoints_Different_Adress.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\MathsOperations.wsdl" />
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\WebServiceClientSOAP.MathsLibrary_MultipleEndpoints_Different_Binding.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\MathsOperations\item.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -79,20 +109,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\Calculator\" />
+    <WCFMetadataStorage Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\" />
+    <WCFMetadataStorage Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\" />
     <WCFMetadataStorage Include="Connected Services\MathsOperations\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Calculator\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Calculator\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\Calculator\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\MathsOperations\item.disco" />
@@ -105,6 +124,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\MathsOperations\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Binding\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\MathsLibrary_MultipleEndpoints_Different_Adress\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

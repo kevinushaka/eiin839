@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
-using WebServiceClientSOAP.Calculator;
-using WebServiceClientSOAP.MathsOperations;
+using WebServiceClientSOAP;
 namespace WebServiceClientSOAP
 {
     class Program
@@ -13,9 +11,12 @@ namespace WebServiceClientSOAP
 
             
         {
-            //CalculatorSoapClient client= new CalculatorSoapClient();
-            MathsOperationsClient client = new MathsOperationsClient();
-            Console.WriteLine(client.Add(1, 2));
+            /*MathsLibrary_MultipleEndpoints_Different_Binding.MathsOperationsClient client = 
+                new MathsLibrary_MultipleEndpoints_Different_Binding.MathsOperationsClient("SoapEndPnt2");
+            */
+            /*MathsLibrary_MultipleEndpoints_Different_Adress.MathsOperationsClient client =
+                new MathsLibrary_MultipleEndpoints_Different_Adress.MathsOperationsClient("SoapEndPnt1");*/
+           // Console.WriteLine(client.Add(1, 2));
             Console.ReadLine();
         }
     }

@@ -5,15 +5,31 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-namespace WcfServiceLibrary
+namespace MathsLibrary_MultipleEndpoints_Different_Adress
 {
     // REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom de classe "Service1" à la fois dans le code et le fichier de configuration.
-    public class Service1 : IService1
+    public class MathsOperations : IMathsOperations
     {
-        public string GetData(int value)
+        public int Add(int x, int y)
         {
-            return string.Format("You entered: {0}", value);
+            return x + y;
         }
+
+        public int Multiply(int x, int y)
+        {
+            return x - y;
+        }
+
+        public int Substract(int x, int y)
+        {
+            return x * y;
+        }
+
+        public float Divide(float x, float y)
+        {
+            return x / y;
+        }
+
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {

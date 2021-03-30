@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary", "WcfServiceLibrary\WcfServiceLibrary.csproj", "{19D59BEE-B0B8-47FB-8AB2-5FD1F9A55187}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary", "MathsLibrary\MathsLibrary.csproj", "{28BD7601-FE6F-4771-B5C0-7A630A7A751D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary_MultipleEndpoints_Different_Adress", "MathsLibrary_MultipleEndpoints_Different_Adress\MathsLibrary_MultipleEndpoints_Different_Adress.csproj", "{FA7522C8-F111-4E71-B3A0-982BEBC2239C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary_MultipleEndpoints_Different_Binding", "MathsLibrary_MultipleEndpoints_Different_Binding\MathsLibrary_MultipleEndpoints_Different_Binding.csproj", "{67571BCD-127F-44DD-BB4A-67A2414CC6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLibrary_SOAP_And_REST", "MathsLibrary_SOAP_And_REST\MathsLibrary_SOAP_And_REST.csproj", "{346A5272-116B-4F6E-AE17-134389C177E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19D59BEE-B0B8-47FB-8AB2-5FD1F9A55187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19D59BEE-B0B8-47FB-8AB2-5FD1F9A55187}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19D59BEE-B0B8-47FB-8AB2-5FD1F9A55187}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19D59BEE-B0B8-47FB-8AB2-5FD1F9A55187}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28BD7601-FE6F-4771-B5C0-7A630A7A751D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28BD7601-FE6F-4771-B5C0-7A630A7A751D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28BD7601-FE6F-4771-B5C0-7A630A7A751D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28BD7601-FE6F-4771-B5C0-7A630A7A751D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7522C8-F111-4E71-B3A0-982BEBC2239C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7522C8-F111-4E71-B3A0-982BEBC2239C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7522C8-F111-4E71-B3A0-982BEBC2239C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7522C8-F111-4E71-B3A0-982BEBC2239C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67571BCD-127F-44DD-BB4A-67A2414CC6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67571BCD-127F-44DD-BB4A-67A2414CC6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67571BCD-127F-44DD-BB4A-67A2414CC6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67571BCD-127F-44DD-BB4A-67A2414CC6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346A5272-116B-4F6E-AE17-134389C177E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346A5272-116B-4F6E-AE17-134389C177E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346A5272-116B-4F6E-AE17-134389C177E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346A5272-116B-4F6E-AE17-134389C177E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
